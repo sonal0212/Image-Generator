@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@700;900&family=Work+Sans:wght@400;500;700;800;900&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(5, 5, 40);
+}
+
+.heading {
+  text-align: center;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: 110% auto;
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+}
+
+.generate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+.search {
+  padding: 1.5rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.198);
+}
+
+.search:hover {
+  border-color: transparent;
+  box-shadow: 0 0 0.8rem rgb(255, 255, 255);
+}
+
+.btn {
+  padding: 1.5rem 1.5rem;
+  font-size: 1.8rem;
+  border-radius: 0.8rem;
+  color: azure;
+  border: 0.1rem solid green;
+  font-weight: 500;
+  box-shadow: 0 0 0.8rem rgb(255, 255, 255);
+  background: linear-gradient(to right, #15c77d, #105d43);
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: white;
+}
+
+.loading,
+.error {
+  color: white;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-top: 4rem;
+}
+
+.image {
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0.8rem rgb(255, 255, 255);
+  margin: 10rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}

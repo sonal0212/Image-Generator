@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState(null);
 
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "write your API key",
   });
 
   const openai = new OpenAIApi(configuration);
